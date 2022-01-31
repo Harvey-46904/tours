@@ -29,5 +29,5 @@ Route::get('index', function () {
 
 //VISTAS DASHBOARD
 Route::get('dashboard-index', function () {
-    return view('dash.index');
+    return view('dash.dashboard');
 })->name("index-dash");
