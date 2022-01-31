@@ -16,3 +16,18 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+//VISTAS PAGINA WEB
+
+//MODELO BASE WEB
+
+//vista base
+Route::get('index', function () {
+    return view('website.index');
+})->name("index");
+
+
+//VISTAS DASHBOARD
+Route::get('dashboard-index', function () {
+    return view('dash.index');
+})->name("index-dash");
