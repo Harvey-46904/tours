@@ -373,87 +373,167 @@
         <div class="col-lg-3">
           <div class="pricing-item-regular">
             <span class="price">$12</span>
-            <h4>Standard Plan App</h4>
+            <h4>TOUR BOGOTÁ</h4>
             <div class="icon">
-              <img src="{!! asset('website/assets/images/pricing-table-01.png') !!}" alt="">
+              <img src="{!! asset('website/assets/images/tour-bog.jpg') !!}" alt="">
             </div>
             <ul>
-              <li>Lorem Ipsum Dolores</li>
-              <li>20 TB of Storage</li>
-              <li class="non-function">Life-time Support</li>
-              <li class="non-function">Premium Add-Ons</li>
-              <li class="non-function">Fastest Network</li>
-              <li class="non-function">More Options</li>
+            <li>Tiquete Pasto - Bogotá</li>
+              <li>Alojamiento en hotel</li>
+              <li>Alimentación</li>
+              <li>Visita Sitios Turisticos</li>
+              <li>Guía turístico</li>
             </ul>
             <div class="border-button">
-              <a href="#">Purchase This Plan Now</a>
+              <a href="#">COMPRAR AHORA</a>
             </div>
           </div>
         </div>
         <div class="col-lg-3">
           <div class="pricing-item-regular">
             <span class="price">$25</span>
-            <h4>Business Plan App</h4>
+            <h4>TOUR EJE CAFETERO</h4>
             <div class="icon">
-              <img src="{!! asset('website/assets/images/pricing-table-01.png') !!}" alt="">
+              <img src="{!! asset('website/assets/images/eje-caf.jpg') !!}" alt="">
             </div>
             <ul>
-              <li>Lorem Ipsum Dolores</li>
-              <li>50 TB of Storage</li>
-              <li>Life-time Support</li>
-              <li>Premium Add-Ons</li>
-              <li class="non-function">Fastest Network</li>
-              <li class="non-function">More Options</li>
+            <li>Tiquete Pasto - Eje cafetero</li>
+              <li>Alojamiento en hotel</li>
+              <li>Alimentación</li>
+              <li>Visita Sitios Turisticos</li>
+              <li>Guía turístico</li>
             </ul>
             <div class="border-button">
-              <a href="#">Purchase This Plan Now</a>
+              <a href="#">COMPRAR AHORA</a>
             </div>
           </div>
         </div>
         <div class="col-lg-3">
           <div class="pricing-item-regular">
             <span class="price">$66</span>
-            <h4>Premium Plan App</h4>
+            <h4>TOUR CALI</h4>
             <div class="icon">
-              <img src="{!! asset('website/assets/images/pricing-table-01.png') !!}" alt="">
+              <img src="{!! asset('website/assets/images/cali-tour-1.jpg') !!}" alt="">
             </div>
             <ul>
-              <li>Lorem Ipsum Dolores</li>
-              <li>120 TB of Storage</li>
-              <li>Life-time Support</li>
-              <li>Premium Add-Ons</li>
-              <li>Fastest Network</li>
-              <li>More Options</li>
+              <li>Tiquete Pasto - Medellín</li>
+              <li>Alojamiento en hotel</li>
+              <li>Alimentación</li>
+              <li>Visita Sitios Turisticos</li>
+              <li>Guía turístico</li>
             </ul>
             <div class="border-button">
-              <a href="#">Purchase This Plan Now</a>
+              <a href="#">COMPRAR AHORA</a>
             </div>
           </div>
         </div>
         <div class="col-lg-3">
           <div class="pricing-item-regular">
             <span class="price">$25</span>
-            <h4>Business Plan App</h4>
+            <h4>TOUR MEDELLÍN</h4>
             <div class="icon">
-              <img src="{!! asset('website/assets/images/pricing-table-01.png') !!}" alt="">
+              <img src="{!! asset('website/assets/images/medellin-1.jpeg') !!}" alt="">
             </div>
             <ul>
-              <li>Lorem Ipsum Dolores</li>
-              <li>50 TB of Storage</li>
-              <li>Life-time Support</li>
-              <li>Premium Add-Ons</li>
-              <li class="non-function">Fastest Network</li>
-              <li class="non-function">More Options</li>
+              <li>Tiquete Pasto - Cali</li>
+              <li>Alojamiento en hotel</li>
+              <li>Alimentación</li>
+              <li>Visita Sitios Turisticos</li>
+              <li>Guía turístico</li>
             </ul>
             <div class="border-button">
-              <a href="#">Purchase This Plan Now</a>
+              <a href="#">COMPRAR AHORA</a>
             </div>
           </div>
         </div>
+
+        <div class="col-lg-3">
+          <div class="pricing-item-regular">
+            <span class="price">$25</span>
+            <h4>TOUR MEDELLÍN</h4>
+            <div class="icon">
+              <img src="{!! asset('website/assets/images/medellin-1.jpeg') !!}" alt="">
+            </div>
+            <ul>
+              <li>Tiquete Pasto - Cali</li>
+              <li>Alojamiento en hotel</li>
+              <li>Alimentación</li>
+              <li>Visita Sitios Turisticos</li>
+              <li>Guía turístico</li>
+            </ul>
+            <div class="border-button">
+              <a href="#">COMPRAR AHORA</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="pricing-item-regular">
+            <span class="price">$25</span>
+            <h4>TOUR MEDELLÍN</h4>
+            <div class="icon">
+              <img src="{!! asset('website/assets/images/medellin-1.jpeg') !!}" alt="">
+            </div>
+            <ul>
+              <li>Tiquete Pasto - Cali</li>
+              <li>Alojamiento en hotel</li>
+              <li>Alimentación</li>
+              <li>Visita Sitios Turisticos</li>
+              <li>Guía turístico</li>
+            </ul>
+            <div class="border-button">
+              <a href="#">COMPRAR AHORA</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="pricing-item-regular">
+            <span class="price">$25</span>
+            <h4>TOUR MEDELLÍN</h4>
+            <div class="icon">
+              <img src="{!! asset('website/assets/images/medellin-1.jpeg') !!}" alt="">
+            </div>
+            <ul>
+              <li>Tiquete Pasto - Cali</li>
+              <li>Alojamiento en hotel</li>
+              <li>Alimentación</li>
+              <li>Visita Sitios Turisticos</li>
+              <li>Guía turístico</li>
+            </ul>
+            <div class="border-button">
+              <a href="#">COMPRAR AHORA</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="pricing-item-regular">
+            <span class="price">$25</span>
+            <h4>TOUR MEDELLÍN</h4>
+            <div class="icon">
+              <img src="{!! asset('website/assets/images/medellin-1.jpeg') !!}" alt="">
+            </div>
+            <ul>
+              <li>Tiquete Pasto - Cali</li>
+              <li>Alojamiento en hotel</li>
+              <li>Alimentación</li>
+              <li>Visita Sitios Turisticos</li>
+              <li>Guía turístico</li>
+            </ul>
+            <div class="border-button">
+              <a href="#">COMPRAR AHORA</a>
+            </div>
+          </div>
+        </div>
+
+
       </div>
     </div>
   </div>
+
   
+
 </div>
 
 <div id="galeria" class="about-us section">

@@ -179,8 +179,8 @@
                               </ul>
                         </li>
                         <li>
-                            <a href="#">
-                                <p>Log out</p>
+                            <a href="{{ route('index')}}">
+                                <p>Cerrar Sesión</p>
                             </a>
                         </li>
 						<li class="separator hidden-lg"></li>
