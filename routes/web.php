@@ -26,6 +26,10 @@ Route::get('index', function () {
     return view('website.index');
 })->name("index");
 
+Route::get('login', function () {
+    return view('website.login');
+})->name("login");
+
 
 //VISTAS DASHBOARD
 Route::get('dashboard-index', function () {
