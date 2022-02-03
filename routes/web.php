@@ -35,3 +35,7 @@ Route::get('login', function () {
 Route::get('dashboard-index', function () {
     return view('dash.dashboard');
 })->name("index-dash");
+
+Route::get('registro-tour', function () {
+    return view('dash.registro-tour');
+})->name("registro-tour");
