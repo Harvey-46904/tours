@@ -39,3 +39,11 @@ Route::get('dashboard-index', function () {
 Route::get('registro-tour', function () {
     return view('dash.registro-tour');
 })->name("registro-tour");
+
+Route::get('modificar-tour', function () {
+    return view('dash.modificar-tour');
+})->name("modificar-tour");
+
+Route::get('lista-tours', function () {
+    return view('dash.lista-tours');
+})->name("lista-tours");
