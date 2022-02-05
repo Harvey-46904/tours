@@ -49,33 +49,53 @@
                     SPECIAL VANS
                 </a>
             </div>
-
+            
             <ul class="nav">
-                <li class="active">
-                    <a href="dashboard.html">
+                <li class="active" style="margin-left: -5%;">
+                    <a >
                         <i class="pe-7s-graph"></i>
                         <p>Dashboard</p>
                     </a>
                 </li>
-                <li>
-                    <a href="user.html">
-                        <i class="pe-7s-user"></i>
-                        <p>Perfil Usuario</p>
-                    </a>
-                </li>
-                <li>
+                <li style="margin-left: -5%;">
                     <a href="">
                         <i class="pe-7s-map-2"></i>
                         <p>tours</p>
                     </a>
+                <li style="margin-left: 12%;">
+                    <i class="fa fa-map-marker"></i>
+                    <a href="{{ url('registro-tour') }}">REGISTRAR TOUR</a>
                 </li>
-                <li>
+                <li style="margin-left: 12%;">
+                    <i class="fa fa-pencil-square-o"></i>
+                    <a href="{{ url('modificar-tour') }}">MODIFICAR TOURS</a>
+                </li>
+                <li style="margin-left: 12%;">
+                    <i class="fa fa-list"></i>
+                    <a href="{{ url('lista-tours') }}">LISTAR TOURS</a>
+                </li>
+                </li>
+
+                <li style="margin-left: -5%;">
                     <a href="">
                         <i class="pe-7s-news-paper"></i>
                         <p>Publicidad</p>
                     </a>
+                <li style="margin-left: 11%;">
+                    <i class="fa fa-file-image-o"></i>
+                    <a href="">AÑADIR PUBLICIDAD</a>
+                <li style="margin-left: 11%;">
+                    <i class="fa fa-pencil-square-o"></i>
+                    <a href="">MODIFICAR PUBLICIDAD</a>
                 </li>
-                <li>
+                <li style="margin-left: 11%;">
+                    <i class="fa fa-times"></i>
+                    <a href="">ELIMINAR PUBLICIDAD</a>
+                </li>
+                </li>
+                </li>
+
+                <li style="margin-left: -5%;">
                     <a href="notifications.html">
                         <i class="pe-7s-bell"></i>
                         <p>Notificaciones</p>
@@ -99,12 +119,7 @@
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-left">
-                        <li>
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <i class="fa fa-dashboard"></i>
-								<p class="hidden-lg hidden-md">Dashboard</p>
-                            </a>
-                        </li>
+                        
                         <li class="dropdown">
                               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                     <i class="fa fa-globe"></i>
@@ -132,30 +147,7 @@
 
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                           <a href="">
-                               <p>Mi Cuenta</p>
-                            </a>
-                        </li>
-                        <li class="dropdown">
-                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <p>
-										Dropdown
-										<b class="caret"></b>
-									</p>
-
-                              </a>
-                              <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                              </ul>
-                        </li>
-                        <li>
-                            <a href="{{ route('index')}}">
+                            <a href="{{ route('index')}}" >
                                 <p>Cerrar Sesión</p>
                             </a>
                         </li>
