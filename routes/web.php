@@ -47,3 +47,7 @@ Route::get('modificar-tour', function () {
 Route::get('lista-tours', function () {
     return view('dash.lista-tours');
 })->name("lista-tours");
+
+Route::get('agregar-publicidad', function () {
+    return view('dash.agregar-publicidad');
+})->name("agregar-publicidad");

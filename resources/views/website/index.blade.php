@@ -296,6 +296,7 @@
             <h4>Transporte Aeropuerto</h4>
             <h4>El Dorado - Bogotá</h4>
             <img src="{!! asset('website/assets/images/trans-aero.png') !!}" style="border-radius: 5% 20% 5% 5%;">
+            <br><br>
             <p>Prestamos el servicio desde y hacia el aeropuerto, sin límite de pasajeros.<br> Nos ajustamos a sus necesidades.</p>
             
             <div class="text-button">
@@ -309,6 +310,7 @@
             <h4>Transporte Empresarial</h4>
             <h4>Servicio Ejecutivo</h4>
             <img src="{!! asset('website/assets/images/trans-ejecutivo.png') !!}" style="border-radius: 5% 20% 5% 5%;">
+            <br>
             <p>* Servicio empresarial
               <br>
               * Servicio de transporte puerta a puerta
@@ -447,85 +449,7 @@
           </div>
         </div>
 
-        <div class="col-lg-3">
-          <div class="pricing-item-regular">
-            <span class="price">$25</span>
-            <h4>TOUR MEDELLÍN</h4>
-            <div class="icon">
-              <img src="{!! asset('website/assets/images/medellin-1.jpeg') !!}" alt="">
-            </div>
-            <ul>
-              <li>Tiquete Pasto - Cali</li>
-              <li>Alojamiento en hotel</li>
-              <li>Alimentación</li>
-              <li>Visita Sitios Turisticos</li>
-              <li>Guía turístico</li>
-            </ul>
-            <div class="border-button">
-              <a href="#">COMPRAR AHORA</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3">
-          <div class="pricing-item-regular">
-            <span class="price">$25</span>
-            <h4>TOUR MEDELLÍN</h4>
-            <div class="icon">
-              <img src="{!! asset('website/assets/images/medellin-1.jpeg') !!}" alt="">
-            </div>
-            <ul>
-              <li>Tiquete Pasto - Cali</li>
-              <li>Alojamiento en hotel</li>
-              <li>Alimentación</li>
-              <li>Visita Sitios Turisticos</li>
-              <li>Guía turístico</li>
-            </ul>
-            <div class="border-button">
-              <a href="#">COMPRAR AHORA</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3">
-          <div class="pricing-item-regular">
-            <span class="price">$25</span>
-            <h4>TOUR MEDELLÍN</h4>
-            <div class="icon">
-              <img src="{!! asset('website/assets/images/medellin-1.jpeg') !!}" alt="">
-            </div>
-            <ul>
-              <li>Tiquete Pasto - Cali</li>
-              <li>Alojamiento en hotel</li>
-              <li>Alimentación</li>
-              <li>Visita Sitios Turisticos</li>
-              <li>Guía turístico</li>
-            </ul>
-            <div class="border-button">
-              <a href="#">COMPRAR AHORA</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3">
-          <div class="pricing-item-regular">
-            <span class="price">$25</span>
-            <h4>TOUR MEDELLÍN</h4>
-            <div class="icon">
-              <img src="{!! asset('website/assets/images/medellin-1.jpeg') !!}" alt="">
-            </div>
-            <ul>
-              <li>Tiquete Pasto - Cali</li>
-              <li>Alojamiento en hotel</li>
-              <li>Alimentación</li>
-              <li>Visita Sitios Turisticos</li>
-              <li>Guía turístico</li>
-            </ul>
-            <div class="border-button">
-              <a href="#">COMPRAR AHORA</a>
-            </div>
-          </div>
-        </div>
+       
 
 
       </div>
@@ -555,7 +479,7 @@
                             <div class="link-zoom-button">
                                 <div class="single-button"><a href="#"><span class="fa fa-link"></span>Details</a></div>
                                 <div class="single-button"><a class="zoom lightbox-image"
-                                        href="{!! asset('website/assets/images/tours/bogota.jpeg') !!}"><span class="fa fa-search"></span>Zoom</a></div>
+                                        href="{!! asset('website/assets/images/tours/bogota.jpeg') !!}" ><span class="fa fa-search"></span>Zoom</a></div>
                             </div>
                         </div>
                     </div>

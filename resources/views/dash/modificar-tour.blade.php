@@ -15,139 +15,71 @@
                         <form class="header">
                             
                             <div class="form-group">
-                                <label for="formGroupExampleInput">Destino Tour</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                                <label>Destino Tour</label>
+                                <input type="text" class="form-control" id="destino_tour" name="destino_tour" placeholder="(Bogotá, Medellín, Cali, Armenia, etc...)">
                             </div>
                             <div class="form-group">
-                                <label for="formGroupExampleInput2">Precio</label>
-                                <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+                                <label>Precio</label>
+                                <input type="number" class="form-control" id="precio_tour" name="precio_tour" placeholder="Ingresar Precio del Tour">
                             </div>
                             <div class="form-group">
-                            <label for="exampleFormControlFile1">FOTO</label>
-                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                            <label>FOTO</label>
+                            <input type="file" class="form-control-file" id="foto_tour" name="foto_tour">
                             </div>
                             <div class="form-group">
-                            <label for="exampleFormControlSelect1">TIPO DE TRANSPORTE</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
+                            <label>TIPO DE TRANSPORTE</label>
+                            <select class="form-control" id="tipo_transporte" name="tipo_transporte">
+                            <option selected disabled>Seleccione una opción</option>
                             <option>AEREO</option>
                             <option>TERRESTRE</option>
-                            <option>3</option>
                             </select>
                             </div>
                             <div class="form-group">
-                            <label for="exampleFormControlSelect1">ACOMODACIÓN</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
+                            <label>ACOMODACIÓN</label>
+                            <select class="form-control" id="select_acomodacion" name="select_acomodacion">
+                            <option selected disabled>Seleccione una opción</option>
                             <option>HABITACIÓN MÚLTIPLE</option>
                             <option>HABITACIÓN SENCILLA</option>
                             </select>
                             </div>
                             <div class="form-group">
-                                <label for="formGroupExampleInput2">NOMBRE HOTEL HOSPEDAJE</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+                                <label>NOMBRE HOTEL HOSPEDAJE</label>
+                                <input type="text" class="form-control" id="nombre_hotel" name="nombre_hotel" placeholder="Hotel Donde Se Hospedarán Los Turistas">
                             </div>
                             <div class="form-group">
-                                <label for="formGroupExampleInput2">No. de DÍAS</label>
-                                <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+                                <label>No. de DÍAS</label>
+                                <input type="number" class="form-control" id="num_dias" name="num_dias" placeholder="No. de Días del Tour">
                             </div>
                             <div class="form-group">
-                                <label for="formGroupExampleInput2">No. de NOCHES</label>
-                                <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+                                <label>No. de NOCHES</label>
+                                <input type="number" class="form-control" id="num_noches" name="num_noches" placeholder="No. de Noches del Tour">
                             </div>
                             <div class="form-group">
-                                <label for="formGroupExampleInput2">ALIMENTACIÓN</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+                                <label>TIPO ALIMENTACIÓN</label>
+                                <input type="text" class="form-control" id="tipo_alimentacion" name="tipo_alimentacion" placeholder="(Todo Incluido, Tipo Buffete, etc.">
                             </div>
                             <div class="form-group">
-                            <label for="exampleFormControlSelect1">SEGURO HOTELERO</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
+                            <label>SEGURO HOTELERO</label>
+                            <select class="form-control" id="select_seguro_hotelero" name="select_seguro_hotelero">
+                            <option selected disabled>Seleccione una opción</option>
                             <option>SI</option>
                             <option>NO</option>
                             </select>
                             </div>
                             <div class="form-group">
-                            <label for="exampleFormControlSelect1">SEGURO DE VIAJE</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
+                            <label>SEGURO DE VIAJE</label>
+                            <select class="form-control" id="select_seguro_viaje" name="select_seguro_viaje">
+                            <option selected disabled>Seleccione una opción</option>
                             <option>SI</option>
                             <option>NO</option>
                             </select>
                             </div>
                             <div align=center>
-                            <button type="submit" class="btn btn-primary">AÑADIR TOUR</button>
+                            <button type="submit" class="btn btn-primary">MODIFICAR TOUR</button>
                             </div>
                             
                         </form>
                         <br>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <div class="content">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="card">
-                            <div class="header">
-                                <h4 class="title">Striped Table with Hover</h4>
-                                <p class="category">Here is a subtitle for this table</p>
-                            </div>
-                            <div class="content table-responsive table-full-width">
-                                <table class="table table-hover table-striped">
-                                    <thead>
-                                        <th>ID</th>
-                                    	<th>Name</th>
-                                    	<th>Salary</th>
-                                    	<th>Country</th>
-                                    	<th>City</th>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                        	<td>1</td>
-                                        	<td>Dakota Rice</td>
-                                        	<td>$36,738</td>
-                                        	<td>Niger</td>
-                                        	<td>Oud-Turnhout</td>
-                                        </tr>
-                                        <tr>
-                                        	<td>2</td>
-                                        	<td>Minerva Hooper</td>
-                                        	<td>$23,789</td>
-                                        	<td>Curaçao</td>
-                                        	<td>Sinaai-Waas</td>
-                                        </tr>
-                                        <tr>
-                                        	<td>3</td>
-                                        	<td>Sage Rodriguez</td>
-                                        	<td>$56,142</td>
-                                        	<td>Netherlands</td>
-                                        	<td>Baileux</td>
-                                        </tr>
-                                        <tr>
-                                        	<td>4</td>
-                                        	<td>Philip Chaney</td>
-                                        	<td>$38,735</td>
-                                        	<td>Korea, South</td>
-                                        	<td>Overland Park</td>
-                                        </tr>
-                                        <tr>
-                                        	<td>5</td>
-                                        	<td>Doris Greene</td>
-                                        	<td>$63,542</td>
-                                        	<td>Malawi</td>
-                                        	<td>Feldkirchen in Kärnten</td>
-                                        </tr>
-                                        <tr>
-                                        	<td>6</td>
-                                        	<td>Mason Porter</td>
-                                        	<td>$78,615</td>
-                                        	<td>Chile</td>
-                                        	<td>Gloucester</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-
-                            </div>
                         </div>
                     </div>
 

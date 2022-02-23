@@ -58,7 +58,7 @@
                     </a>
                 </li>
                 <li style="margin-left: -5%;">
-                    <a href="">
+                    <a>
                         <i class="pe-7s-map-2"></i>
                         <p>tours</p>
                     </a>
@@ -77,13 +77,13 @@
                 </li>
 
                 <li style="margin-left: -5%;">
-                    <a href="">
+                    <a>
                         <i class="pe-7s-news-paper"></i>
                         <p>Publicidad</p>
                     </a>
                 <li style="margin-left: 11%;">
                     <i class="fa fa-file-image-o"></i>
-                    <a href="">AÑADIR PUBLICIDAD</a>
+                    <a href="{{ url('agregar-publicidad') }}">AÑADIR PUBLICIDAD</a>
                 <li style="margin-left: 11%;">
                     <i class="fa fa-pencil-square-o"></i>
                     <a href="">MODIFICAR PUBLICIDAD</a>
@@ -162,6 +162,7 @@
         <!--Final  Secciones Personalizadas Aquí -->
 
         <footer class="footer">
+            <!--
             <div class="container-fluid">
                 <nav class="pull-left">
                     <ul>
@@ -187,8 +188,9 @@
                         </li>
                     </ul>
                 </nav>
+                -->
                 <p class="copyright pull-right">
-                    &copy; <script>document.write(new Date().getFullYear())</script> <a href="enlace">Special Vans</a>, Diseño e implementación HR | Solutions Pasto
+                    &copy; <script>document.write(new Date().getFullYear())</script> <a href="enlace">Special Vans</a>, Diseño e implementación Hache | Solutions Pasto
                 </p>
             </div>
         </footer>
