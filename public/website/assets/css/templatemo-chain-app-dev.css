@@ -1053,7 +1053,7 @@ Banner 3 Style
 
 .main-banner3:after {
   content: '';
-  background-image: url(../images/fnd-secc3.jpg);
+  background-image: url(../images/fnd-secc3ok.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
