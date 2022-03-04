@@ -1731,13 +1731,13 @@ footer {
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 130px;
-  padding-top: 300px;
-  padding-bottom: 60px;
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 footer .section-heading {
-  margin-bottom: 45px;
+  margin-bottom: 0px;
 }
 
 footer .section-heading h4 {
@@ -1749,7 +1749,7 @@ footer .section-heading h4 {
 }
 
 footer #search {
-  margin-bottom: 80px;
+  margin-bottom: 0px;
 }
 
 footer #search input::placeholder {
