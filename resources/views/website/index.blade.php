@@ -257,25 +257,23 @@
       </div>
     </div>
   </div>
+
   <!--Final Duplicar seccion 2-->
 
-    <!--Duplicar seccion 3 Pilares Corporativos-->
-    <div class="main-banner3 wow fadeIn" id="seccion2" data-wow-duration="1s" data-wow-delay="0.5s">
+    <!--seccion Pilares Corporativos-->
+    <div class="main-banner2 wow fadeIn" id="seccion2" data-wow-duration="1s" data-wow-delay="0.5s">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                  <img  src="{!! asset('website/assets/images/pilares.png') !!}" alt="">
-                </div>
+          <div class="col-md-12">
+              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                  <img  src="{!! asset('website/assets/images/pilares.png') !!}">
               </div>
-            </div>
           </div>
         </div>
       </div>
     </div>
-    <!--Final Duplicar seccion 3-->
+    <!--Final Duplicar seccion 2-->
+
     <div id="div-servicios">
     <div class="container" >
       <div id="services" class="services section">

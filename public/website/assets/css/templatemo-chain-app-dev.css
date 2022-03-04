@@ -910,7 +910,7 @@ Banner Style
 
 .main-banner1:after {
   content: '';
-  background-image: url(../images/secc1.jpg);
+  background-image: url(../images/a.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -981,7 +981,7 @@ Banner 2 Style
 
 .main-banner2:after {
   content: '';
-  background-image: url(../images/chicamocha.jpg);
+  background-image: url(../images/b.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -1042,6 +1042,7 @@ Banner 3 Style
 --------------------------------------------- 
 */
 
+
 .main-banner3 {
   background-repeat: no-repeat;
   background-position: center center;
@@ -1053,7 +1054,7 @@ Banner 3 Style
 
 .main-banner3:after {
   content: '';
-  background-image: url(../images/fnd-secc3ok.jpg);
+  background-image: url(../images/c.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
