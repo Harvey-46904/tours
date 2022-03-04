@@ -5,7 +5,7 @@
 
 <style type="text/css">
     body {
-    background: url('../website/assets/images/img3.jpg') no-repeat fixed center center;
+    background: url('http://localhost/tours/public/website/assets/images/img3.jpg')  no-repeat fixed center center;
     background-size: cover;
     font-family: Montserrat;
 }
