@@ -51,3 +51,23 @@ Route::get('lista-tours', function () {
 Route::get('agregar-publicidad', function () {
     return view('dash.agregar-publicidad');
 })->name("agregar-publicidad");
+
+Route::get('modificar-publicidad', function () {
+    return view('dash.modificar-publicidad');
+})->name("modificar-publicidad");
+
+Route::get('listar-publicidad', function () {
+    return view('dash.listar-publicidad');
+})->name("listar-publicidad");
+
+Route::get('agregar-imagenes', function () {
+    return view('dash.agregar-imagenes');
+})->name("agregar-imagenes");
+
+Route::get('listar-imagenes', function () {
+    return view('dash.listar-imagenes');
+})->name("listar-imagenes");
+
+Route::get('modificar-imagenes', function () {
+    return view('dash.modificar-imagenes');
+})->name("modificar-imagenes");

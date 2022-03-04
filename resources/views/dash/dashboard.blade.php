@@ -45,14 +45,14 @@
 
     	<div class="sidebar-wrapper">
             <div class="logo">
-                <a href="http://www.creative-tim.com" class="simple-text">
+                <a href="{{ url('dashboard-index') }}" class="simple-text">
                     SPECIAL VANS
                 </a>
             </div>
             
             <ul class="nav">
                 <li class="active" style="margin-left: -5%;">
-                    <a >
+                    <a href="{{ url('dashboard-index') }}">
                         <i class="pe-7s-graph"></i>
                         <p>Dashboard</p>
                     </a>
@@ -65,10 +65,6 @@
                 <li style="margin-left: 12%;">
                     <i class="fa fa-map-marker"></i>
                     <a href="{{ url('registro-tour') }}">REGISTRAR TOUR</a>
-                </li>
-                <li style="margin-left: 12%;">
-                    <i class="fa fa-pencil-square-o"></i>
-                    <a href="{{ url('modificar-tour') }}">MODIFICAR TOURS</a>
                 </li>
                 <li style="margin-left: 12%;">
                     <i class="fa fa-list"></i>
@@ -85,12 +81,23 @@
                     <i class="fa fa-file-image-o"></i>
                     <a href="{{ url('agregar-publicidad') }}">AÑADIR PUBLICIDAD</a>
                 <li style="margin-left: 11%;">
-                    <i class="fa fa-pencil-square-o"></i>
-                    <a href="">MODIFICAR PUBLICIDAD</a>
+                    <i class="fa fa-list"></i>
+                    <a href="{{ url('listar-publicidad') }}">LISTAR PUBLICIDAD</a>
                 </li>
+                </li>
+                </li>
+
+                <li style="margin-left: -5%;">
+                    <a>
+                        <i class="fa fa-file-image-o"></i>
+                        <p>GALERÍA</p>
+                    </a>
                 <li style="margin-left: 11%;">
-                    <i class="fa fa-times"></i>
-                    <a href="">ELIMINAR PUBLICIDAD</a>
+                    <i class="fa fa-camera-retro "></i>
+                    <a href="{{ url('agregar-imagenes') }}">AÑADIR IMAGEN</a>
+                <li style="margin-left: 11%;">
+                    <i class="fa fa-list"></i>
+                    <a href="{{ url('listar-imagenes') }}">LISTAR IMAGENES</a>
                 </li>
                 </li>
                 </li>

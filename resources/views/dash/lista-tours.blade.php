@@ -39,7 +39,18 @@
                                             <td>Tipo Buffette</td>
                                             <td>Si</td>
                                             <td>Si</td>
-                                            <td>☺ | ☻</td>
+
+                                            <td>
+                                                <div style="display:flex">
+                                                <a href="{{ url('modificar-tour') }}" class="btn btn-warning btn-md active" role="button" aria-pressed="true">
+                                                    <i class="fa fa-pencil-square-o"></i>
+                                                </a>
+                                                
+                                                <a href="" class="btn btn-danger btn-md active" role="button" aria-pressed="true">
+                                                    <i class="fa fa-times"></i>
+                                                </a>
+                                                </div>
+                                            </td>
                                         </tr>
                                         <tbody>
                                         <tr>
@@ -54,7 +65,17 @@
                                             <td>Tipo Buffette</td>
                                             <td>Si</td>
                                             <td>Si</td>
-                                            <td>☺ | ☻</td>
+                                            <td>
+                                                <div style="display:flex">
+                                                <a href="{{ url('modificar-tour') }}" class="btn btn-warning btn-md active" role="button" aria-pressed="true">
+                                                    <i class="fa fa-pencil-square-o"></i>
+                                                </a>
+                                                
+                                                <a href="" class="btn btn-danger btn-md active" role="button" aria-pressed="true">
+                                                    <i class="fa fa-times"></i>
+                                                </a>
+                                                </div>
+                                            </td>
                                         </tr>
                                         <tbody>
                                         <tr>
@@ -69,7 +90,17 @@
                                             <td>Full Restaurante</td>
                                             <td>Si</td>
                                             <td>Si</td>
-                                            <td>☺ | ☻</td>
+                                            <td>
+                                                <div style="display:flex">
+                                                <a href="{{ url('modificar-tour') }}" class="btn btn-warning btn-md active" role="button" aria-pressed="true">
+                                                    <i class="fa fa-pencil-square-o"></i>
+                                                </a>
+
+                                                <a href="" class="btn btn-danger btn-md active" role="button" aria-pressed="true">
+                                                    <i class="fa fa-times"></i>
+                                                </a>
+                                                </div>
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>

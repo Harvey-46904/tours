@@ -28,30 +28,19 @@
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     
-    <!--
-    <link rel="stylesheet" href="assets/css/templatemo-chain-app-dev.css">
-    -->
     <link rel="stylesheet" href="{!! asset('website/assets/css/templatemo-chain-app-dev.css') !!}">
-    
-    <!--
-    <link rel="stylesheet" href="assets/css/animated.css">
-    -->
+
     <link rel="stylesheet" href="{!! asset('website/assets/css/animated.css') !!}">
     
-    <!--
-    <link rel="stylesheet" href="assets/css/owl.css">
-    -->
-    <link rel="stylesheet" href="{!! asset('website/assets/css/owl.css') !!}">
-    
-    <!--
-    <link rel="stylesheet" href="assets/css/lightgallery.min.css">
-    -->
+    <link rel="stylesheet" href="{!! asset('website/assets/css/owl.css') !!}"> 
+
     <link rel="stylesheet" href="{!! asset('website/assets/css/lightgallery.min.css') !!}">
-    
-    <!--
-    <link rel="stylesheet" href="assets/css/style.css">
-    -->
+
     <link rel="stylesheet" href="{!! asset('website/assets/css/style.css') !!}">
+
+    <link rel="stylesheet" href="{!! asset('website/assets/css/estilos.css') !!}">
+
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
     
   </head>
 
@@ -69,6 +58,14 @@
     </div>
   </div>
   <!-- ***** Preloader End ***** -->
+
+  <!--WhatsApp Button-->
+
+  <a href="https://api.whatsapp.com/send?phone=+57" class="btn-wsp" target="_blank">
+	    <i class="fa fa-whatsapp icono"></i>
+	</a>
+
+  <!--WhatsApp Button end-->
 
   <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
@@ -231,16 +228,14 @@
               <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="row">
                   <div class="col-lg-12">
-                    <h2 style="color:white">¿Quienes Somos?</h2>
+                    <h3 style="color:white; text-align:justify;"><b>¿Quienes Somos?</b></h3>
                     <p style="color:white">Es una empresa dedicada a satisfacer las necesidades de transporte especial, turístico y empresarial a nivel nacional. </p>
-                    <h4 id="prueba-degradado">PRUEBA DEGRADE ORO</h4>
-                    <style type="text/css">
-                       #prueba-degradado {
-                        background: rgb(36,29,0);
-                        background: linear-gradient(90deg, rgba(36,29,0,0.8127626050420168) 4%, rgba(108,87,8,1) 54%, rgba(255,248,15,1) 93%, rgba(255,192,0,1) 100%);
+                    
+                    <h3 style="color:white"><b>MISIÓN</b></h3>
+                    <p style="color:white; text-align:justify;">Special vans Es una empresa dedicada a la solución de servicios de transporte a nivel nacional en el sector turístico y empresarial, ofreciendo puntualidad, calidad y tecnología de punta con el acompañamiento del mejor talento humano.</p>
 
-                      }
-                      </style>
+                    <h3 style="color:white"><b>VISIÓN</b></h3>
+                    <p style="color:white; text-align:justify;">Special vans acordé con los principios de confianza y puntualidad acompañados por la gestión de talento humano alcanzará el reconocimiento de sus clientes asegurando un mayor posicionamiento en las soluciones de transporte a nivel nacional.</p>
 
                   </div>
                   
@@ -273,6 +268,10 @@
       </div>
     </div>
     <!--Final Duplicar seccion 2-->
+
+    <!-- Carousel test section -->
+    
+    <!--Final Carousel test section-->
 
     <div id="div-servicios">
     <div class="container" >

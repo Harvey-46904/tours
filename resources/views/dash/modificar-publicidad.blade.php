@@ -8,8 +8,8 @@
                         <div class="card">
 
                         <div class="header">
-                                <h4 class="title">AÑADIR NUEVA SECCIÓN PUBLICITARIA</h4>
-                                <p class="category">Añadir aquí los elementos publicitarios que serán publicados en el portal web Special Vans</p>
+                                <h4 class="title">MODIFICAR SECCIÓN PUBLICITARIA</h4>
+                                <p class="category">Modificar los elementos publicitarios publicados actualmente en el portal web Special Vans</p>
                         </div>
 
                         <form class="header">
@@ -26,7 +26,7 @@
                                 <input type="text" class="form-control" id="desc-publicidad" name="desc-publicidad" placeholder="Añadir Descripción">
                             </div>
                             <div align=center>
-                            <button type="submit" class="btn btn-primary">AÑADIR SECCIÓN PUBLICITARIA</button>
+                            <button type="submit" class="btn btn-primary">ACTUALIZAR SECCIÓN PUBLICITARIA</button>
                             </div>
                             
                         </form>
