@@ -284,7 +284,7 @@
   <!--Final Duplicar seccion 2-->
 
     <!--seccion Pilares Corporativos-->
-    <div class="main-banner2 wow fadeIn" id="seccion2" data-wow-duration="1s" data-wow-delay="0.5s">
+    <div class="main-banner3 wow fadeIn" id="seccion2" data-wow-duration="1s" data-wow-delay="0.5s">
       <div class="container">
         <div class="row">
           <div class="col-md-12">

@@ -1047,7 +1047,8 @@ Banner 3 Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 250px 120px 150px 120px;
+  /* padding: 250px 120px 150px 120px; */
+  padding: 5px 0px 5px 0px;
   position: relative;
   overflow: hidden;
 }
