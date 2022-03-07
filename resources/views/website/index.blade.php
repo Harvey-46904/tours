@@ -64,8 +64,36 @@
   <a href="https://api.whatsapp.com/send?phone=+57" class="btn-wsp" target="_blank">
 	    <i class="fa fa-whatsapp icono"></i>
 	</a>
-
   <!--WhatsApp Button end-->
+
+  <!--Scroll Top Button-->
+  <a href="#" class="scroll-top" title="Ir arriba">
+    <i class="fa fa-angle-up"></i>
+  </a>
+  <style>
+    a.scroll-top {
+      color: #fff;
+      display: none;
+      width: 40px;
+      height: 40px;
+      position: fixed;
+      z-index: 1000;
+      bottom: 40px;
+      right: 30px;
+      font-size: 20px;
+      background: #000039;
+      border-radius: 20px !important;
+      text-align: center;
+      border: 3px solid hsla(0, 0%, 78%, 0.3)
+    }
+    a.scroll-top i {
+    position: relative;
+    top: 2px;
+    }
+  </style>
+  
+  
+  <!--Scroll Top End-->
 
   <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
@@ -647,6 +675,21 @@
   -->
   <script src="{!! asset('website/assets/js/owl-carousel.js') !!}"></script>
 
+  <script>
+    $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+        $('a.scroll-top').fadeIn('slow');
+
+    } else {
+        $('a.scroll-top').fadeOut('slow');
+    }
+    });
+
+    $('a.scroll-top').click(function(event) {
+        event.preventDefault();
+        $('html, body').animate({scrollTop: 0}, 600);
+    });
+  </script>
   <!--
   <script src="assets/js/animation.js"></script>
   -->
