@@ -609,11 +609,11 @@
     <div class="container">
       <div class="row">
       <div class="col-lg-4">
-          <div class="footer-widget">
-            <h4>¿Quienes Somos?</h4>
-            <div class="logo">
+      <div class="logo">
               <img src="{!! asset('website/assets/images/logo-special-vans.png') !!}" alt="Special Vans">
             </div>
+          <div class="footer-widget">
+            <h4>¿Quienes Somos?</h4>
             <p><b>Special Vans:</b> es una empresa dedicada a satisfacer las necesidades de transporte especial, turístico y empresarial a nivel nacional. </p>
           </div>
         </div>
