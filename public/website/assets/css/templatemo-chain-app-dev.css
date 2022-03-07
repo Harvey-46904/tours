@@ -903,7 +903,7 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 250px 120px 150px 120px;
+  padding: 250px 5px 150px 5px;
   position: relative;
   overflow: hidden;
 }
@@ -974,7 +974,7 @@ Banner 2 Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 250px 120px 150px 120px;
+  padding: 60px 5px 40px 5px;
   position: relative;
   overflow: hidden;
 }
