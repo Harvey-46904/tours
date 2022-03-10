@@ -264,7 +264,7 @@
 
                     <h3 style="color:white"><b>VISIÓN</b></h3>
                     <p style="color:white; text-align:justify;">Special vans acordé con los principios de confianza y puntualidad acompañados por la gestión de talento humano alcanzará el reconocimiento de sus clientes asegurando un mayor posicionamiento en las soluciones de transporte a nivel nacional.</p>
-
+                    <h1>HOLAAAAAAAAAAAA</h2>
                   </div>
                   
                 </div>
